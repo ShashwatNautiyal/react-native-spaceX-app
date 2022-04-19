@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "SpaceX-APP is the react native app which shows the list of launchpads and launches using the SpaceX-API.",
+    "githubUrl": "https://github.com/ShashwatNautiyal/react-native-spaceX-app"
   }
 }

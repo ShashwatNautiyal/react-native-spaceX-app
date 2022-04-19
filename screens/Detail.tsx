@@ -22,8 +22,9 @@ const Detail = ({ route }: { route: any }) => {
 					{new Date(data?.data?.date_local).toDateString()}
 				</Text>
 				<Image
-					style={tw`h-64 w-full object-contain border border-gray-400 rounded-md my-4`}
-					source={{ uri: data?.data?.links?.patch?.small }}
+					resizeMode="contain"
+					style={tw`h-64 w-full rounded-md my-4`}
+					source={{ uri: data?.data?.links?.patch?.large }}
 				/>
 
 				<View style={tw`flex-col`}>
@@ -42,7 +43,7 @@ const Detail = ({ route }: { route: any }) => {
 
 				<View style={tw`flex-col`}>
 					<Text style={tw`font-semibold`}>Cores reused: </Text>
-					<Text>Cores reused: {data?.data?.cores?.reused ? "Yes" : "No"}</Text>
+					<Text>{data?.data?.cores?.reused ? "Yes" : "No"}</Text>
 				</View>
 			</View>
 		</LoadingLayout>
