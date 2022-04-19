@@ -5,7 +5,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 const LoadingLayout = ({ isLoading, children }: { isLoading: boolean; children: ReactNode }) => {
 	return (
-		<SafeAreaView style={tw`flex-1`}>
+		<SafeAreaView style={tw`flex-1 mb-10`}>
 			{isLoading ? (
 				<Box flex={1} backgroundColor="white" alignItems="center" justifyContent="center">
 					<Spinner color="emerald.500" size="lg" />

@@ -22,7 +22,7 @@ const Launchpad = ({
 	};
 }) => {
 	return (
-		<View style={tw`my-4 flex-col shadow bg-gray-100 border border-gray-200 rounded-xl`}>
+		<View style={tw`my-2 flex-col shadow bg-gray-100 border border-gray-200 rounded-xl`}>
 			<ImageBackground
 				style={tw`flex flex-col justify-end w-full h-64 `}
 				imageStyle={tw`rounded-xl`}
