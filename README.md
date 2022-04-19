@@ -9,20 +9,17 @@
 </blockquote>
 
 ## Preivew
-<img src="https://github.com/ShashwatNautiyal/react-native-spaceX-app/blob/master/app.gif?raw=true" width="400"/>
+<img src="https://github.com/ShashwatNautiyal/react-native-spaceX-app/blob/master/app.gif?raw=true" width="300"/>
 
 ## Description
 This app is built using Expo-CLI and React Native. It shows the list of the launchpads and launches for the SpaceX. It uses the data from the SpaceX-API to show all the information.
 
-
-- 🐙 [Expo](https://expo.dev/@shashwatnautiyal/Medbikri-SpaceX-APP?serviceType=classic&distribution=expo-go)
+- 🐙 [SpaceX](https://expo.dev/@shashwatnautiyal/Medbikri-SpaceX-APP?serviceType=classic&distribution=expo-go)
 
 This App uses:
 
 - React Native `0.64.3`
 - [React Navigation v6](https://reactnavigation.org/)
-
-
 
 ## How to use?
 
@@ -38,10 +35,16 @@ npm install -g expo-cli
 
 ```bash
 # install dependencies
-npm install -g expo-cli
+npm install
 ```
 
 ```bash
 # start project
 expo start
 ```
+
+## How to run using Expo app on iOS or Andriod?
+
+- Go to [SpaceX](https://expo.dev/@shashwatnautiyal/Medbikri-SpaceX-APP?serviceType=classic&distribution=expo-go)
+- Scan the QR code and install the Expo app or install from [App Store](https://apps.apple.com/us/app/expo-go/id982107779) or [Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_IN&gl=US)
+- Open your camera in the Expo app and enjoy the SpaceX app😁.
